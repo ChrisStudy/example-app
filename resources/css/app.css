@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+h1 {
+    font-size: 3.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+section.import-section {
+    margin: auto;
+    color: #fff;
+}
+h2.title.text-center {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #242526;
+}
+input#file {
+    height: auto;
+}
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+table#DataTables_Table_0 {
+    border: initial;
+} 
+table#DataTables_Table_0 {
+    border: initial;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+table.border-collapse.dataTable thead th, table.border-collapse.dataTable thead td {
+    border-bottom: none;
+    border-top: 1px solid #ddd !important;
+}
+input[type="search"] {
+    border: 1px solid #ddd;
+}
+body {
+    color: #fff;
+    background-color: #242526;
+    font-family: Oswald,sans-serif;
+}
+label,
+.data-table-offices,
+div {
+    color:#242526;
+}
+
